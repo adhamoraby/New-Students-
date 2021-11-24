@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>New student</title>
+    </head>
+    <body>
+        <h1>New Student</h1>
+    <form>
+        <fieldset> 
+            <legend><p>Personal Information</p></legend>
+        <div>
+        <label for="name">Full Name: </label>
+        <input type="text" name="name">
+        </div>
+        <br>
+        <div>
+        <label for="birthdate">Birthdate: </label>
+        <input type="date" name="birthdate">
+        </div>
+        <br>
+        <div>
+        <label>Gender:  </label>
+        <input type="radio" name="Gender" >Male
+        <input type="radio" name="Gender" >Female
+        </div>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend><p>Contact Information</p></legend>
+        <div>
+        <label>Email: </label>
+        <input type="email" name="Email">
+        </div>
+        <br>
+        <div>
+        <label>Phone: </label>
+        <input type="number" name="phone">
+        </div>
+        <br>
+        <div>
+        <label>Address: </label>
+        <textarea name="Address"cols="100" row="5"></textarea>
+        </div>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend><p>University Information</p></legend>
+        <div>
+        <label for="Choose">Choose Your Faculty: </label>
+        <select name="Choose" id="choose">
+        <optgroup>
+        <option value="1">Factulty 1</option>
+        <option value="2">Factulty 2</option>
+        <option value="3">Factulty 3</option>
+        <option value="4">Factulty 4</option>
+        </optgroup>
+        </select>
+        </div>
+        <br>
+        </fieldset>
+    </form>
+        <input  type="submit" name="Add" value="Add">
+        <style>
+        div {
+        text-align: left;
+            }
+        </style>
+    </body>
+    </html>
